@@ -13,6 +13,11 @@ import { DirectionalQsComponent } from './sectionTwo/directional-qs/directional-
 import { IllComponent } from './sectionTwo/ill/ill.component';
 import { StudyRoomsComponent } from './sectionTwo/study-rooms/study-rooms.component';
 import { LocComponent } from './sectionTwo/loc/loc.component';
+import { WelcomeThreeComponent } from './sectionThree/welcome-three/welcome-three.component';
+import { MasonMoneyComponent } from './sectionThree/mason-money/mason-money.component';
+import { PrintingComponent } from './sectionThree/printing/printing.component';
+import { PhoneComponent } from './sectionThree/phone/phone.component';
+import { AccountComponent } from './sectionThree/account/account.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
@@ -27,7 +32,13 @@ const routes: Routes = [
   { path: 'directional-qs', component: DirectionalQsComponent},
   { path: 'ill', component: IllComponent},
   { path: 'study-rooms', component: StudyRoomsComponent},
-  { path: 'shelving', component: LocComponent}
+  { path: 'shelving', component: LocComponent},
+  { path: 'section-three', component: WelcomeThreeComponent},
+  { path: 'mason-money', component: MasonMoneyComponent},
+  { path: 'printer', component: PrintingComponent},
+  { path: 'phone', component: PhoneComponent},
+  { path: 'accounts', component: AccountComponent},
+
 ];
 
 @NgModule({

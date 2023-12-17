@@ -21,6 +21,12 @@ import { DirectionalQsComponent } from './sectionTwo/directional-qs/directional-
 import { IllComponent } from './sectionTwo/ill/ill.component';
 import { StudyRoomsComponent } from './sectionTwo/study-rooms/study-rooms.component';
 import { LocComponent } from './sectionTwo/loc/loc.component';
+import { SectionThreeComponent } from './sectionThree/section-three/section-three.component';
+import { WelcomeThreeComponent } from './sectionThree/welcome-three/welcome-three.component';
+import { MasonMoneyComponent } from './sectionThree/mason-money/mason-money.component';
+import { PrintingComponent } from './sectionThree/printing/printing.component';
+import { PhoneComponent } from './sectionThree/phone/phone.component';
+import { AccountComponent } from './sectionThree/account/account.component';
 
 @NgModule({
   declarations: [
@@ -42,7 +48,13 @@ import { LocComponent } from './sectionTwo/loc/loc.component';
     DirectionalQsComponent,
     IllComponent,
     StudyRoomsComponent,
-    LocComponent
+    LocComponent,
+    SectionThreeComponent,
+    WelcomeThreeComponent,
+    MasonMoneyComponent,
+    PrintingComponent,
+    PhoneComponent,
+    AccountComponent
   ],
   imports: [
     BrowserModule,
