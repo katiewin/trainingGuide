@@ -1,0 +1,33 @@
+.content{
+    position: absolute;
+    top: 10rem; /* Adjust as needed */
+    left: 25rem; 
+    width: 50%;
+  }
+  
+  .content p, button{
+    margin-top: 1rem;
+  }
+
+  section{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5rem;
+
+  }
+
+  section div{
+    width: 40%;
+  }
+
+  section h2{
+    margin-bottom: 2rem;
+  }
+
+  section p{
+    margin-bottom: 1rem;
+    font-weight:lighter;
+  }
+  button{
+    margin-left: 50rem;
+  }

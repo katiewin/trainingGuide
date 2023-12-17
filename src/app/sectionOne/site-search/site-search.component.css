@@ -1,0 +1,11 @@
+.content{
+    position: absolute;
+    top: 10rem; /* Adjust as needed */
+    left: 25rem; 
+    width: 50%;
+    padding-bottom: 2rem;
+  }
+  
+  button{
+    margin-left: 50rem;
+  }

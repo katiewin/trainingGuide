@@ -1,0 +1,10 @@
+.content{
+  position: absolute;
+  top: 10rem; /* Adjust as needed */
+  left: 25rem; 
+  width: 50%;
+}
+
+.content p, button{
+  margin-top: 1rem;
+}
