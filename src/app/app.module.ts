@@ -27,6 +27,11 @@ import { MasonMoneyComponent } from './sectionThree/mason-money/mason-money.comp
 import { PrintingComponent } from './sectionThree/printing/printing.component';
 import { PhoneComponent } from './sectionThree/phone/phone.component';
 import { AccountComponent } from './sectionThree/account/account.component';
+import { SectionFourComponent } from './sectionFour/section-four/section-four.component';
+import { WelcomeFourComponent } from './sectionFour/welcome-four/welcome-four.component';
+import { CustomerServiceComponent } from './sectionFour/customer-service/customer-service.component';
+import { ReferenceComponent } from './sectionFour/reference/reference.component';
+import { StacksComponent } from './sectionFour/stacks/stacks.component';
 
 @NgModule({
   declarations: [
@@ -54,7 +59,12 @@ import { AccountComponent } from './sectionThree/account/account.component';
     MasonMoneyComponent,
     PrintingComponent,
     PhoneComponent,
-    AccountComponent
+    AccountComponent,
+    SectionFourComponent,
+    WelcomeFourComponent,
+    CustomerServiceComponent,
+    ReferenceComponent,
+    StacksComponent
   ],
   imports: [
     BrowserModule,

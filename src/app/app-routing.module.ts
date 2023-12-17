@@ -18,6 +18,10 @@ import { MasonMoneyComponent } from './sectionThree/mason-money/mason-money.comp
 import { PrintingComponent } from './sectionThree/printing/printing.component';
 import { PhoneComponent } from './sectionThree/phone/phone.component';
 import { AccountComponent } from './sectionThree/account/account.component';
+import { WelcomeFourComponent } from './sectionFour/welcome-four/welcome-four.component';
+import { CustomerServiceComponent } from './sectionFour/customer-service/customer-service.component';
+import { ReferenceComponent } from './sectionFour/reference/reference.component';
+import { StacksComponent } from './sectionFour/stacks/stacks.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
@@ -38,6 +42,11 @@ const routes: Routes = [
   { path: 'printer', component: PrintingComponent},
   { path: 'phone', component: PhoneComponent},
   { path: 'accounts', component: AccountComponent},
+  { path: 'section-four', component: WelcomeFourComponent},
+  { path: 'customer-service', component: CustomerServiceComponent},
+  { path: 'reference', component: ReferenceComponent},
+  { path: 'stacks', component: StacksComponent},
+
 
 ];
 
