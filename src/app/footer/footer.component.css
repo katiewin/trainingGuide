@@ -7,7 +7,9 @@ footer {
     font-size: smaller;
     line-height: 1.5rem;
     width: 100%;
-    min-height: 2.5rem; /* Adjusted */
+    min-height: 2.5rem; 
+    position: absolute;
+    bottom: 0;
 }
 
 footer h2 {
