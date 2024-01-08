@@ -1,11 +1,39 @@
 h1{
     text-align: center;
-    padding-top: 8rem;
+    padding-top: 5rem;
+    padding-bottom: 1rem;
+    font-weight: bold;
+    font-size: 5rem;
+    -webkit-text-stroke: 3px #3EDA60;
+    color: black;
+
 }
 
+h2{
+    text-align: center;
+    padding-bottom: 3rem;
+    font-size: 2rem;
+    
+}
 
 
 button{
     margin-left: 47%;
-    margin-top: 2rem;
+}
+
+.home{
+    width: 100%;
+}
+
+.lineRight{
+    margin-left: 75%;
+    padding-top: 6rem;
+    border-bottom: .5rem solid #3EDA60;
+    width: 25%;
+}
+
+.lineLeft{
+    border-bottom: .5rem solid #3EDA60;
+    width: 25%;
+    margin: 5rem 0rem 10rem;
 }
