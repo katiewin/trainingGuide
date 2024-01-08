@@ -8,3 +8,9 @@
 .content p, button{
   margin-top: 1rem;
 }
+
+.lineLeft{
+    border-bottom: .5rem solid #3EDA60;
+    width: 25%;
+    margin: 5rem 0rem 10rem;
+}
