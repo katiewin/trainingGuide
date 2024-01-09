@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
     <div class="container">
       <app-header></app-header>
       <router-outlet></router-outlet>
-
+ 
     </div>
   `,
   styleUrls: ['./app.component.css']

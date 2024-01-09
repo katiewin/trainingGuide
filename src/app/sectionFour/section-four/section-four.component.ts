@@ -16,6 +16,7 @@ import { Router } from '@angular/router';
       <div class="content">
         <router-outlet></router-outlet>
       </div>
+      
     </div>
   `,
   styleUrls: ['./section-four.component.css']
