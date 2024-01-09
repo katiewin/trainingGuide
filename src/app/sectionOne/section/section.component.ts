@@ -16,9 +16,10 @@ import { Router } from '@angular/router';
         (tocClicked)="navigateToPage($event)"
       ></app-sidebar>
       <div class="content">
+      </div>
+      
       <router-footer></router-footer>
         <router-outlet></router-outlet>
-      </div>
     </div>
   `,
   styleUrls: ['./section.component.css']
