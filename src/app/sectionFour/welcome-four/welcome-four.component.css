@@ -37,3 +37,11 @@ h2{
     margin-left: 30%;
     margin-top: 5%;
   }
+
+  .lineLeft{
+    margin: 5rem 0rem 10rem 75%;
+    padding-top: 6rem;
+    border-bottom: .5rem solid #3EDA60;
+    width: 25%;
+  }
+  
